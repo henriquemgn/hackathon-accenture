@@ -1,0 +1,34 @@
+{
+  "library": {
+    "log_level": "INFO",
+    "analysis": {
+      "id": "<none>",
+      "target_fps": "<none>"
+    },
+    "use_case": {
+      "name": "<none",
+      "id": "<none>",
+      "event_factory": "<none>",
+      "params": "<none>",
+      "area_of_interest": "<none>"
+    },
+    "heap_limit_in_seconds": "5",
+    "kafka": {
+      "broker_endpoint": "kafka:9092",
+      "group_id": "event-factory",
+      "input_topic_prefix": "new_detection",
+      "output_topic_events_prefix": "analysis_events",
+      "output_topic_results": "new_events",
+      "output_topic_draw": "new_drawing"
+    },
+    "default_pipeline": {
+      "region_of_interest": {
+        "percentage": "0.20"
+      },
+      "tracker": {
+        "min_hits": "5",
+        "iou_threshold": "0.15"
+      }
+    }
+  }
+}

@@ -1,3 +1,14 @@
+# Grupo 01 HACKATHON
+
+Henrique Magno dos Santos<br>
+Daniel Ribas Nascimento de Melo<br>
+Ana Luisa Tsunematsu Ferreira<br>
+Felipe José da Cunha<br>
+
+# Alterações
+
+Fizemos alterações no arquivo pipeline.py, onde adicionamos a função de alerta
+
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
